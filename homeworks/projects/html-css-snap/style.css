@@ -53,3 +53,27 @@ header a{
 .sub-menu::after {
     content: url("./snap/images/icon-arrow-down.svg");
 }
+
+
+main {
+    display: flex;
+    padding-left: 12%;
+    padding-right: 12%;
+    padding-bottom: 5%;
+    padding-top: 1%;
+    width: 76%;
+    height: 90%;
+}
+
+
+.right-img {
+    width: 50%;
+    height: auto;
+    padding-left: 250px;
+}
+
+.left-actions {
+  width: 50%;
+  height: auto;
+}
+
