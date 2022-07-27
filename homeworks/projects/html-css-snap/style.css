@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: 400;
+    font-weight: bold;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+}
+
+
+
+header {
+    padding: 15px 3%;
+    
+  
+}
+
+header ul{
+    text-align: left;
+    list-style-type: none;
+    margin-right: 10px;
+}
+
+header li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+header a{
+    text-decoration: none;
+    font-size: 14px;
+    padding: 4px;
+    color: grey;
+}
+
+#btn-register {
+    border: 1px;
+    padding: 8px 18px 8px 18px;
+    border-color: rgb(87, 87, 87);
+    border-radius: 10px;
+    border-style: solid;
+}
+
+.sub-menu::after {
+    content: url("./snap/images/icon-arrow-down.svg");
+}
+
+main {
+    display: flex;
+    padding-left: 12%;
+    padding-right: 12%;
+    padding-bottom: 5%;
+    padding-top: 1%;
+    width: 76%;
+    height: 90%;
+}
+
+h1 {
+    font-size: 4rem;
+    font-family: sans-serif;
+}
+
+p {
+    color: #242323;
+    width: 85%;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: bold;
+}
+
+.right-img {
+    width: 50%;
+    height: auto;
+    padding-left: 250px;
+}
+
+.left-actions {
+  width: 50%;
+  height: auto;
+}
+
+.img2 {
+    width: 400px;
+    height: auto;
+}
+
+.img-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 60px 40px 25px 10px;
+    width: 110%;
+}
+
+button {
+    display: block;
+    border: none;
+    border-radius: 15px;
+    color: #fff;
+    background-color: black;
+    width: 40%;
+    height: 8%;
+    padding: 18px 10px;
+    margin: 1px 1px 3px -9px;
+    cursor: pointer;
+    text-align: center;
+}
