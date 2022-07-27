@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: 400;
+    font-weight: bold;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+}
+
+
+
+header {
+    padding: 15px 3%;
+    
+  
+}
+
+header ul{
+    text-align: left;
+    list-style-type: none;
+    margin-right: 10px;
+}
+
+header li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+header a{
+    text-decoration: none;
+    font-size: 14px;
+    padding: 4px;
+    color: grey;
+}
+
+#btn-register {
+    border: 1px;
+    padding: 8px 18px 8px 18px;
+    border-color: rgb(87, 87, 87);
+    border-radius: 10px;
+    border-style: solid;
+}
+
+.sub-menu::after {
+    content: url("./snap/images/icon-arrow-down.svg");
+}
